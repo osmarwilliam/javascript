@@ -29,7 +29,7 @@ console.log(umaString.length);
 
 console.log(umaString.slice(3, 8));
  
-console.log(umaString.split(' '))
+console.log(umaString.split(' '));
 
 console.log(umaString.toUpperCase());
 console.log(umaString.toLowerCase());

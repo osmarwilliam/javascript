@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios aula 14</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('Digite seu nome: ');     
+        window.document.body.innerHTML = `O seu nome é: <strong>${nome}</strong><br/>`;
+        const tamanho = nome.length;
+        document.body.innerHTML += `Seu nome tem ${tamanho} letras <br />`;
+        const segundaLetra = nome[1];
+        document.body.innerHTML += `A segunda letra do seu nome é: ${segundaLetra}<br />`;
+        const primeiroIndice = nome.indexOf('a'); 
+        document.body.innerHTML += `Qual o primeiro índice da letra a no seu nome? ${primeiroIndice}<br />`;
+        const ultimoIndice = nome.lastIndexOf('a');
+        document.body.innerHTML += `Qual o último índice da letra  no seu nome? ${ultimoIndice}<br />`;
+        const ultimasLetras = nome.slice(-3);
+        document.body.innerHTML += `As ú ltimas 3 letras do seu nome são: ${ultimasLetras}<br />`;
+        const palavrasNome = nome.split(" ");
+        document.body.innerHTML += `As palavras do seu nome são: ${palavrasNome}<br />`;
+        const nomeUpper = nome.toUpperCase();
+        document.body.innerHTML += `Seu nome com letras maiúsculas: ${nomeUpper}<br />`;
+        const nomeLower = nome.toLowerCase();
+        document.body.innerHTML += `Seu nome com letras minúsculas: ${nomeLower}<br />`;    
+</script>
+    <h1></h1>
+</body>
+</html>
